@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300&family=Tilt+Neon&display=swap');
+
+/* body{
+    background-image:url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.icons{
+    height: 1.5rem;
+    width: 1rem;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+@media screen and (max-width:640px){
+    .nav-bar{
+        padding: 2em;
+        height: 5vh;
+        width: 100vw;
+        background-color: #900;
+    }
+    h3{
+        position: absolute;
+        top: 1%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        color: white;
+    }
+    .sub-nav{
+        margin-top: 1em;
+        position: absolute;
+        right: 0px;
+        width: 100vw;
+        background-color: #900;
+        color: white;
+        padding: 1.75em;
+        visibility: hidden;
+    }
+    ul li{
+        margin-bottom: 0.75em;
+        cursor: pointer;
+    }
+    .icons{
+        position: absolute;
+        margin-top: 0.5em;
+        top: 1%;
+        right: 2%;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    #close{
+        visibility: hidden;
+    }
+
+    .about{
+        width: 100vw;
+        margin-top: 0.2em;
+        margin-left: 1em;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+    }
+
+    img{
+        margin-left: 0.5em;
+        margin-top: 1em;
+        height: auto;
+        width: 100vw;
+        border-radius: 14px;
+    }
+
+    .p1{
+        margin-left: 1em;
+        margin-top: 0.5em;
+        line-height: 1.5rem;
+    }
+
+    #quote{
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #p2{
+        font-size: 1.25rem;
+        margin-left: 1em;
+        padding: 0.25em;
+        margin-top: 0.25em;
+    }
+
+    ol{
+        padding: 2em;
+    }
+
+    ol li{
+        margin-bottom: 0.8em;
+    }
+
+    .p3{    
+        font-size: 1rem;
+        padding: 0.25em;
+        line-height: 1.5rem;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width:641px){
+
+    .about{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-left: 1em;
+        padding-top: 0.5em;
+    }
+
+    .p1{
+        font-size: 1.5rem;
+        padding: 1em;
+    }
+
+    img{
+        height: auto;
+        width: 60vw;
+        padding: 1.5em;
+        justify-content: center;
+        margin-left: 20%;
+        border-radius: 36px;
+    }
+    
+    #quote{
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #p2{
+        font-size: 1.5rem;
+        margin-left: 1em;
+        font-weight: 500;
+    }
+
+    ol{
+        padding: 1.5em;
+        margin-left: 1em;
+        font-size: 1.25rem;
+    }
+
+    ol li{
+        margin-bottom: 1.5em;
+    }
+
+    .p3{
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        padding: 1em;
+    }
+}
+
+
+@media screen and (min-width : 1221px){
+    .icons{
+        visibility: hidden;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #900;
+        color: white;
+        height: 2.5rem;
+        padding: 0.5rem;
+    }
+
+    ul li{
+        display: inline-block;
+        margin-left: 1.75em;
+    }
+}
+
+@media screen and (min-width : 641px) and (max-width:1220px){
+    .nav-bar{
+        padding: 2em;
+        height: 5vh;
+        width: 100vw;
+        background-color: #900;
+    }
+    h3{
+        position: absolute;
+        top: 1%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        color: white;
+    }
+    .sub-nav{
+        margin-top: 1em;
+        position: absolute;
+        right: 0px;
+        width: 100vw;
+        background-color: #900;
+        color: white;
+        padding: 1.75em;
+        visibility: hidden;
+    }
+    ul li{
+        margin-bottom: 0.75em;
+        cursor: pointer;
+    }
+
+    .icons{
+        height: 100px;
+        width: 100px;
+    }
+
+    .icons{
+        position: absolute;
+        margin-top: -1.75%;
+        top: 0%;
+        right: 0;
+        z-index: 0;
+    }
+
+    #close{
+        visibility: hidden;
+    }
+}

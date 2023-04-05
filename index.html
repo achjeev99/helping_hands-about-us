@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <h3>HELPING HANDS</h3>
+            <div class="sub-nav">
+            <ul>
+                <li>Home</li>
+                <li>Gallery</li>
+                <li>Donate Us</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+            <img src="align-justify.png" onclick="toggle()" id="open"alt="" class="icons">
+            <img src="close-line.png" onclick="quit()" id="close" alt="" class="icons">
+        </nav>
+    </header>  
+
+    <section class="s1">
+        <div class="about">About Us</div>
+        <div class="p1">
+            Helping Hands are better than Praying lips...Helping Hands society has flourished since 2009 by helping many necessitous people with the support of students and faculty .Helping Hands is a student welfare committee in RGUKT-Nuzvid,a A.P state government university which provide financial support for medical needs and surgeries to the needy people.Helping Hands provide daily needs to the students to meet minimum requirements,Travel expenses and many more services.
+        </div>
+        <img src="hh_img.jpeg" alt="">
+        <p id="quote">"We rise by lifting others"</p>
+        <div class="p1">Helping Hands has been driving force in instilling a sense of leadership and social responsibility among students.Helping Hands organizes effectively to find necessitous people and approach them in specific way.</div>
+        <p id="p2">Helping Hands organization is categorised into four departments.</p>
+    </section>
+
+    <section>
+        <ol>
+           <li>Internal care Department:It meets daily needs of people including travelling expenses and providing washing machies to physically disabled people.</li>
+           <li>Health Care Department:It is the main focussed department which saves many lives in and out of campus,It provides medical camps and distribute free medicines for people.</li>
+           <li>Public Relation Departmeny:It focuses on raising outside funding and conducting community-level service activities.</li>
+           <li>Finance Department:It provides complete accurate information about how funds are raised and utilized to help needy.</li>
+        </ol>
+
+        <p class="p3">Helping Hands follows specific strategy by electing Helping Hands Representatives(HR's),Executive Committee members of their respective branch.A total of 250 active volunteers are responsible for proper functioning of daily affairs.</p>
+
+        <p class="p3">Every volunteer of HH organisation plays an eminent role in extending our services to the impoverished ones.The main fund raising source is collecting money from students atleat 1 rupee from each student.collecting used note books,news papers and plastic scrap.stalls and raising money from phylanthropic invividuals are other ways.A little help,A little kindness,It's not much but helps others and goes Farther than you think.Helping Hands the cause of many surgeries,providing necessitous has long way to go and ever thankful to the basic idea of shiva which leads to this flourished organization. 
+        </p>
+    </section>
+</body>
+
+<script>
+    const elements = document.querySelector(".sub-nav")
+    const close = document.querySelector("#close")
+    const open = document.querySelector("#open")
+    const toggle = () => {
+        elements.style.visibility = "visible"
+        close.style.visibility = "visible"
+        open.style.visibility = "hidden"
+    }
+    const quit = () => {
+        elements.style.visibility = "hidden"
+        close.style.visibility = "hidden"
+        open.style.visibility = "visible"
+    }
+</script>
+</html>
